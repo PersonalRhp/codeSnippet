@@ -1,0 +1,14 @@
+source 'http://121.43.48.157/raohonping123456/timingLibrarysSpec.git'
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target "tableViewPreload" do
+ use_frameworks!
+ pod "AFNetworking", "~> 4.0"
+ pod 'SDWebImage', '~> 5.0'
+ pod 'MJExtension', '~> 3.0.15'
+ pod 'AliPlayerSDK_iOS', '5.1.5'
+ pod 'FBSDKCoreKit'
+ pod 'ReactiveObjC','= 3.1.1'
+ pod 'timingLibrarys'	
+end
