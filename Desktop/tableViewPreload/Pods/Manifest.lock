@@ -14,9 +14,6 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - AliPlayerSDK_iOS (5.1.5):
-    - AliPlayerSDK_iOS/AliPlayerSDK (= 5.1.5)
-  - AliPlayerSDK_iOS/AliPlayerSDK (5.1.5)
   - FBSDKCoreKit (7.1.1):
     - FBSDKCoreKit/Basics (= 7.1.1)
     - FBSDKCoreKit/Core (= 7.1.1)
@@ -28,11 +25,10 @@ PODS:
   - SDWebImage (5.8.0):
     - SDWebImage/Core (= 5.8.0)
   - SDWebImage/Core (5.8.0)
-  - timingLibrarys (0.2.0)
+  - timingLibrarys (0.3.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0)
-  - AliPlayerSDK_iOS (= 5.1.5)
   - FBSDKCoreKit
   - MJExtension (~> 3.0.15)
   - ReactiveObjC (= 3.1.1)
@@ -44,7 +40,6 @@ SPEC REPOS:
     - timingLibrarys
   trunk:
     - AFNetworking
-    - AliPlayerSDK_iOS
     - FBSDKCoreKit
     - MJExtension
     - ReactiveObjC
@@ -52,13 +47,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  AliPlayerSDK_iOS: 97ef48e44cf935c5dd31687871457acee8b0f5c6
   FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
-  timingLibrarys: 2b224222b2a7c3d71e8afecf5d24f22b29627b25
+  timingLibrarys: d18803ea8b3535051724585d482eaa8caf8f3955
 
-PODFILE CHECKSUM: 208a044987be3da805c7c37b37cdde786981bf5c
+PODFILE CHECKSUM: 98b122aba03b26060a591b4cc59fe1ee79e48462
 
 COCOAPODS: 1.9.1
